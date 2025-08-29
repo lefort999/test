@@ -3,4 +3,5 @@ services:
     name: mon-service-test
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"
+
+    startCommand: gunicorn app:app
